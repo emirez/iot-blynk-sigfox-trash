@@ -11,9 +11,10 @@
 BlynkTimer timer;
 SoftwareSerial  wisol_serial(D7,D8);
 
-char auth[] = "954a64676b4147f9bf4246e581877828";
-char ssid[] = "CASSINIguest";
-char pass[] = "Cassini2016!";
+// Customize these values
+char auth[] = "";
+char ssid[] = "";
+char pass[] = "";
 char  sigfox_send_buf[12];
 
 #ifdef __cplusplus
